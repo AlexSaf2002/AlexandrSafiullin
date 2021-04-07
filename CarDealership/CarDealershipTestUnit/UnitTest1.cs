@@ -24,7 +24,7 @@ namespace CarDealershipTestUnit
         public void ToStringTestMethod()
         {
             var tesla = CreateTestCar();
-            Assert.AreEqual("Бренд: Tesla. Год выпуска: 2014. Идентификационный номер: abcdefg1234.", tesla.ToString());
+            Assert.AreEqual("Р‘СЂРµРЅРґ: Tesla. Р“РѕРґ РІС‹РїСѓСЃРєР°: 2014. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ: abcdefg1234.", tesla.ToString());
         }
         [TestMethod]
         public void PrintInfoTestMethod()
@@ -32,7 +32,7 @@ namespace CarDealershipTestUnit
             
             var tesla = CreateTestCar();
             var honda = new Car("Honda", 2010, "xyz555000123", AllBodyTypes.Station_wagon, 2500000, "14.08.2011", "Mendeleev Mihail Ivanovich");
-            var consoleOut = new[] { "Бренд: Tesla. Год выпуска: 2014. Идентификационный номер: abcdefg1234.", $"Тип кузова: седан. Цена: 3000000. Дата продажи: 25.09.2015. ФИО покупателя: Ivanov Ivan Ivanovich.", "Бренд: Honda. Год выпуска: 2010. Идентификационный номер: xyz555000123.", $"Тип кузова: универсал. Цена: 2500000. Дата продажи: 14.08.2011. ФИО покупателя: Mendeleev Mihail Ivanovich." };
+            var consoleOut = new[] { "Р‘СЂРµРЅРґ: Tesla. Р“РѕРґ РІС‹РїСѓСЃРєР°: 2014. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ: abcdefg1234.", $"РўРёРї РєСѓР·РѕРІР°: СЃРµРґР°РЅ. Р¦РµРЅР°: 3000000. Р”Р°С‚Р° РїСЂРѕРґР°Р¶Рё: 25.09.2015. Р¤РРћ РїРѕРєСѓРїР°С‚РµР»СЏ: Ivanov Ivan Ivanovich.", "Р‘СЂРµРЅРґ: Honda. Р“РѕРґ РІС‹РїСѓСЃРєР°: 2010. РРґРµРЅС‚РёС„РёРєР°С†РёРѕРЅРЅС‹Р№ РЅРѕРјРµСЂ: xyz555000123.", $"РўРёРї РєСѓР·РѕРІР°: СѓРЅРёРІРµСЂСЃР°Р». Р¦РµРЅР°: 2500000. Р”Р°С‚Р° РїСЂРѕРґР°Р¶Рё: 14.08.2011. Р¤РРћ РїРѕРєСѓРїР°С‚РµР»СЏ: Mendeleev Mihail Ivanovich." };
 
            
             TextWriter oldOut = Console.Out;
