@@ -1,0 +1,9 @@
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\bin\Debug\netcoreapp3.1\CarDealership.deps.json
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\bin\Debug\netcoreapp3.1\CarDealership.dll
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\bin\Debug\netcoreapp3.1\CarDealership.pdb
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\obj\Debug\netcoreapp3.1\CarDealership.csprojAssemblyReference.cache
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\obj\Debug\netcoreapp3.1\CarDealership.AssemblyInfoInputs.cache
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\obj\Debug\netcoreapp3.1\CarDealership.AssemblyInfo.cs
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\obj\Debug\netcoreapp3.1\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\obj\Debug\netcoreapp3.1\CarDealership.dll
+C:\Users\r3s0l\source\repos\CarDealership\CarDealership\obj\Debug\netcoreapp3.1\CarDealership.pdb
